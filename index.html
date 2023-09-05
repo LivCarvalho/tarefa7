@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulário</title>
+</head>
+<body> 
+    <div class="container">
+        <h1>Formulário Numérico</h1>
+        <p>A condição de validade é o número A ser menor que o B</p>
+        <div class="container-form">
+            <caption>Preencha os valores a seguir:</caption>
+            <form id="form-number">
+                <input type="number" id="numberA" required placeholder="Escreva Número A"/>
+                <input type="number" id="numberB" required placeholder="Escreva Número B"/>
+                <button id="btn-submit" type="submit">Enviar</button>
+            </form>
+            <p id="numErrados"></p>
+            <p id="numIguais"></p>
+            <p id="numCorretos"></p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
